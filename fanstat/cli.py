@@ -28,7 +28,7 @@ import pkg_resources
 from fanstatic import get_library_registry
 
 
-def run():
+def command():
 
    args = docopt(__doc__, version='fanstat 1.2')
    if len(sys.argv) == 1:
@@ -122,4 +122,4 @@ def run():
 
 if __name__=="__main__":
 
-   run()
+   command()
